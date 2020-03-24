@@ -1,4 +1,4 @@
-# AUTONOMOUS-MULTI-UAS-LAB-SETUP
+# AUTONOMOUS MULTI-UAS LAB SETUP
 This repository contains information and files for setting up an autonomous multi-UAS laboratory. Two research based unmanned aerial vehicle platforms were used in our multi-UAS lab setup however these instructions can be apllied to a multitude of platforms. The two platforms we used were the Intel Aero RTF Drone, and the UVify Draco-R. This repo will include hardware information, software information and code that we used to setup our autonomous multi-UAS laboratory.
 
 ## Equipment Used

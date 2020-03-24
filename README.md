@@ -30,7 +30,8 @@ Note: These are the UAVs we chose to use however the processes described in this
   * 12 Vicon T160 motion/position tracking cameras.
         
         
-### Asus Wifi Router with DCHP server setup for static IP addressing for all aforementioned machines. 
+### Asus Wifi Router
+  * DCHP server setup for static IP addressing for all aforementioned machines. 
 
 ### Netted Lab Space
   * Dimensions: 43' x 28' x 20' 

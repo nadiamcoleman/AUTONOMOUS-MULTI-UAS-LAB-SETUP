@@ -7,15 +7,9 @@
  * [Installing Ubuntu](https://github.com/intel-aero/meta-intel-aero/wiki/90-(References)-OS-user-Installation)
  
  1. Test fly your drone out of the box to ensure it is functioning properly. 
- 2. Follow the instructions outlined in the [Initial Setup](https://github.com/intel-aero/meta-intel-aero/wiki/02-Initial-setup) documentation. 
-  *
-  *
-  *
- 
- 
- 
+ 2. [Update Yocto](https://github.com/nadiamcoleman/AUTONOMOUS-MULTI-UAS-LAB-SETUP/blob/master/UAV%20Initial%20Setup/Update%20Yocto.md)
  3. Test fly your drone again to to ensure it is functioning properly. 
- 4. Install ubuntu in place of yocto by following the instructions outlined in the [Installing Ubuntu](https://github.com/intel-aero/meta-intel-aero/wiki/90-(References)-OS-user-Installation) documentation.
+ 4. [Install Ubuntu](https://github.com/nadiamcoleman/AUTONOMOUS-MULTI-UAS-LAB-SETUP/blob/master/UAV%20Initial%20Setup/Install%20Ubuntu.md)
  5. Test fly your drone again to to ensure it is functioning properly.
 
 

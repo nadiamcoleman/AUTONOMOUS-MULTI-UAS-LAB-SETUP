@@ -4,33 +4,33 @@ This repository contains information and files for setting up an autonomous mult
 ## Equipment Used
 ### UAS platforms:
 1. 2 X [Intel Aero RTF Quadrotor](https://github.com/intel-aero/meta-intel-aero/wiki "info")
-... Ubuntu 16.04.3 LTS
-... PX4 Firmware 1.8.2
-... ROS Kinetic
-        
+  * Ubuntu 16.04.3 LTS
+  * PX4 Firmware 1.8.2
+  * ROS Kinetic    
+  
 2. 2 X Draco-R Hexacopter (2)
-        Ubuntu 18.04.3 LTS
-        PX4 Firmware 1.9.0
-        ROS Melodic
+  * Ubuntu 18.04.3 LTS
+  * PX4 Firmware 1.9.0
+  * ROS Melodic
 
 Note: These are the UAVs we chose to use however the processes described in this guide can be applied to a multitude of UAV platforms so long as they are PX4 firmware and Linux based. 
 
 ### Computers:
 1. Base Station Computer
-        Ubuntu 18.04.3 LTS
-        ROS Melodic
+  * Ubuntu 18.04.3 LTS
+  * ROS Melodic
 
 2. Vicon Base Computer
-        Windows Vista
-        Vicon Nexus Software
-        Vicon Tracker Software
+  * Windows Vista
+  * Vicon Nexus Software
+  * Vicon Tracker Software
         
 ### Motion Capture System
 1. Vicon Motion Capture System
-        12 Vicon T160 motion/position tracking cameras.
+  * 12 Vicon T160 motion/position tracking cameras.
         
         
 ### Asus Wifi Router with DCHP server setup for static IP addressing for all aforementioned machines. 
 
 ### Netted Lab Space
-Dimensions: 43' x 28' x 20' 
+  * Dimensions: 43' x 28' x 20' 

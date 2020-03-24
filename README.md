@@ -15,6 +15,10 @@ This repository contains information and files for setting up an autonomous mult
 
 Note: These are the UAVs we chose to use however the processes described in this guide can be applied to a multitude of UAV platforms so long as they are PX4 firmware and Linux based. 
 
+3. Batteries
+  * 2 x 4S Lipo battery with XT60 connector
+  * 2 x UVify 4S Lipo battery
+
 ### Computers:
 1. Base Station Computer
   * [Ubuntu 18.04.3 LTS](https://ubuntu.com/download/alternative-downloads)

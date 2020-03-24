@@ -35,7 +35,7 @@
     
     
     
-    ## Set up Basic Applications/Environment
+## Set up Basic Applications/Environment
 1. Enable root login
   * `sudo passwd root`
   * Enter new UNIX password: `intel2`

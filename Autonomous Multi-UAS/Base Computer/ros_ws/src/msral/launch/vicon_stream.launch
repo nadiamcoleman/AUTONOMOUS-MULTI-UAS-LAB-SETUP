@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+	<!-- vim: set ft=xml noet : -->
+	
+	<arg name="ip" />
+	
+	<!-- Run the Vicon Data Streamer -->
+	<node pkg="msral" type="vicon_stream" name="vicon_streamer" 
+				output="screen" args="$(arg ip)">
+	</node>
+</launch>

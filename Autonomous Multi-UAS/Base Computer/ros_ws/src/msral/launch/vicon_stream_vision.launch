@@ -1,0 +1,17 @@
+<launch>
+	<!-- vim: set ft=xml noet : -->
+	
+	<arg name="ip" />
+	
+	<!-- Run the Vicon Data Streamer -->
+	<node pkg="msral" type="vicon_stream_vision" name="vicon_streamer" 
+				output="screen" args="$(arg ip)">
+	</node>
+	
+  <!-- Run the BC Vicon Data Simulator Script -->
+  <!--
+  <node pkg="bc_commander" type="bc_vicon_sim.py" name="bc_vicon_sim" 
+  			output="screen" launch-prefix="gnome-terminal -geometry=70x5 -command " />
+  -->
+  <!--			launch-prefix="gnome-terminal -geometry=60x20 -command " />		-->
+</launch>

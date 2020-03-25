@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+	<!-- vim: set ft=xml noet : -->
+	
+    <group ns="intel2">
+        <arg name
+	<arg name="ip" />
+	
+	<!-- Run the Vicon Data Streamer -->
+	<node pkg="mavros" type="vicon_stream" name="vicon_streamer" 
+				output="screen" args="$(arg ip)">
+	</node>
+</launch>

@@ -50,4 +50,5 @@ You will want a good size netted area space to fly in. You will also want some g
 3. Next you need a wifi router, with both wirless and wired capability (wifi and ethernet). You will need to set up a DHCP server so that you can assign static IPs for all the machines you will use such as computers, UAVs, or other robotic system. 
 
 4. Next you will need an Ubuntu machine to serve as the "base station" for all your ROS communications. This computer will be the control center that sends out all control commands in the form of rostopic messages and also routes position data from the computer running the Vicon software
-5. After all the previous conditions have been met you can start to setup your UAS platforms. 
+5. After all the previous conditions have been met you can start to setup your UAS platforms by following the intructions here:
+https://github.com/nadiamcoleman/AUTONOMOUS-MULTI-UAS-LAB-SETUP/tree/master/UAV%20Initial%20Setup

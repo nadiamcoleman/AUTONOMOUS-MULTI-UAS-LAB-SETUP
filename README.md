@@ -39,3 +39,15 @@ Note: These are the UAVs we chose to use however the processes described in this
 
 ### Netted Lab Space
   * Dimensions: 43' x 28' x 20' 
+  
+  
+# How to Setup an Autonomous Multi-UAS Laboratory
+1. The first step to buidling your own UAV lab starts with router setup, netted area setup, and Vicon setup. 
+You will want a good size netted area space to fly in. You will also want some guidlines and saftey rules for operations inside the space.  
+
+2. You will also want some kind of motion capture system. One of the most widely used systems is the Vicon motion capture system which is the system we utilized for our platform. We will not cover specific instructions for setting up the entirety of the Vicon system however we will offer guidance on how to stream vicon position data using ROS. The basics of the Vicon system include the system itself i.e. cameras, markers, other hardware mand also a computer, in our case, windows with the neccessary software (Nexus, and Tracker). 
+
+3. Next you need a wifi router, with both wirless and wired capability (wifi and ethernet). You will need to set up a DHCP server so that you can assign static IPs for all the machines you will use such as computers, UAVs, or other robotic system. 
+
+4. Next you will need an Ubuntu machine to serve as the "base station" for all your ROS communications. This computer will be the control center that sends out all control commands in the form of rostopic messages and also routes position data from the computer running the Vicon software
+5. After all the previous conditions have been met you can start to setup your UAS platforms. 

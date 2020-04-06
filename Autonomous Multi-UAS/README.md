@@ -14,6 +14,10 @@ This repository includes a ROS workspace folder we created and used to run all o
 * Running mavros natively on each UAS
 * Python Scripts for autonomous flight 
 
+## Preflight Checks
+1. Make sure your UAS is in shape to fly, check for damage, or lose connections etc. 
+2. Make sure your batteries are fully charged and you never fly with a battery charge below ___%
+
 ## The following steps show how to use the code provided to operate 2+ autonomous UAVs:
 1. Start up the Vicon system
 * Power on Vicon system, and computer running Vicon Nexus software. 
@@ -49,8 +53,14 @@ This repository includes a ROS workspace folder we created and used to run all o
       sudo systemctl start mavlink-router
       ```
   * Note: You may wish to check your flight log files, save or extract important ones and clear out the rest. Flight logs are stored on the UAV at '/var/lib/mavlink-router' .
-5. Start Mavros on each UAV you plan to fly
+5. Verify that your vehicle is connected to QGC.
+6. Start Mavros on each UAV you plan to fly
   * ```
     roslaunch msral mavros.launch
     ```
+7. Run your autonomous UAS python/C script that publishes flight commands and waypoints over rostopics on the base station computer. 
+
+## Emergency Actions
+* 
+
 

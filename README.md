@@ -6,12 +6,14 @@ This repository contains information and files for setting up an autonomous mult
 1. 2 x [Intel Aero RTF Quadrotor](https://www.intel.com/content/www/us/en/support/articles/000023271/drones/development-drones.html "info and specs")
   * [Ubuntu 16.04.3 LTS](https://ubuntu.com/download/alternative-downloads)
   * [PX4](https://px4.io) [Firmware 1.8.2](https://github.com/PX4/Firmware/tree/v1.8.2)
-  * [ROS Kinetic](http://wiki.ros.org/kinetic)    
+  * [ROS Kinetic](http://wiki.ros.org/kinetic)  
+
   
 2. 2 x [Draco-R Hexacopter](https://www.uvify.com/draco-r/ "info and specs") 
   * [Ubuntu 18.04.3 LTS](https://ubuntu.com/download/alternative-downloads)
   * [PX4](https://px4.io) [Firmware 1.9.0](https://github.com/PX4/Firmware/tree/v1.9.0)
   * [ROS Melodic](http://wiki.ros.org/melodic)
+
 
 Note: These are the UAVs we chose to use however the processes described in this guide can be applied to a multitude of UAV platforms so long as they are PX4 firmware and Linux based. 
 
@@ -20,7 +22,16 @@ Note: These are the UAVs we chose to use however the processes described in this
   * 2 x UVify 4S Lipo battery
   * 2 x [Wall power adapter](https://www.amazon.com/LEDMO-Power-Supply-Transformers-Adapter/dp/B01461MOGQ/ref=sr_1_3_sspa?keywords=12V+5A+Power+Adapter&qid=1567702141&refinements=p_72%3A1248909011&rnid=1248907011&s=hi&sr=1-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWUtYRVhZN0JPM0lHJmVuY3J5cHRlZElkPUEwODU1MTU5MUFQMjJZSFc5VkZESiZlbmNyeXB0ZWRBZElkPUEwMzEyMTU5MkxBUTNTREg2VjlEMyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 
-### Computers:
+4. Miscellaneous
+  * HDMI Capable Computer Monitor
+  * Micro-HDMI to HDMI cable
+  * Mini-HDMI to HDMI cable
+  * Self-powered, 4 port, USB Hub
+  * Keyboard
+  * USB mouse 
+  * USB drive (minimum 2GB) 
+
+### Desktop Computers:
 1. Base Station Computer
   * [Ubuntu 18.04.3 LTS](https://ubuntu.com/download/alternative-downloads)
   * [ROS Melodic](http://wiki.ros.org/melodic)

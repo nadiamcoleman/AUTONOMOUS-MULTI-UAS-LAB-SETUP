@@ -3,7 +3,7 @@ This repository contains information and files for setting up an autonomous mult
 
 ## Equipment Used
 ### UAS platforms:
-1. 2 x [Intel Aero RTF Quadrotor](https://www.intel.com/content/www/us/en/support/articles/000023271/drones/development-drones.html "info and specs")
+1. 2 x [Intel Aero RTF Quadcopter](https://www.intel.com/content/www/us/en/support/articles/000023271/drones/development-drones.html "info and specs")
   * [Ubuntu 16.04.3 LTS](https://ubuntu.com/download/alternative-downloads)
   * [PX4](https://px4.io) [Firmware 1.8.2](https://github.com/PX4/Firmware/tree/v1.8.2)
   * [ROS Kinetic](http://wiki.ros.org/kinetic)  

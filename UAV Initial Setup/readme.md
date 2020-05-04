@@ -21,6 +21,7 @@
  1. Test fly your drone out of the box to ensure it is functioning properly. 
  2. Our Draco-R platforms came with Ubuntu and PX4 firmware already installed so we can move on to installing ROS.
  3. Install ROS 
+ 4. Install and configure [MAVLink router](https://github.com/intel/mavlink-router).
  
  
  

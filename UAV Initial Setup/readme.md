@@ -13,14 +13,14 @@
  3. Test fly your drone again to to ensure it is functioning properly. 
  4. [Install Ubuntu](https://github.com/nadiamcoleman/AUTONOMOUS-MULTI-UAS-LAB-SETUP/blob/master/UAV%20Initial%20Setup/Intel%20Aero%20Setup/Installing%20ROS%20Kinetic.md)
  5. Test fly your drone again to to ensure it is functioning properly.
- 6. Install ROS 
+ 6. Install [ROS](http://wiki.ros.org/ROS/Installation) 
  
 
 ## UVify Draco-R Setup
 ### Familiarize yourself with the resources and documentation provided. 
  1. Test fly your drone out of the box to ensure it is functioning properly. 
  2. Our Draco-R platforms came with Ubuntu and PX4 firmware already installed so we can move on to installing ROS.
- 3. Install ROS 
+ 3. Install [ROS](http://wiki.ros.org/ROS/Installation)  
  4. Install and configure [MAVLink router](https://github.com/intel/mavlink-router).
  
  
